@@ -1,8 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
-import Greet from './components/Greet'
-import Message from './components/Message'
-import Button from './components/Button'
+import Greet from './components/Greet';
+import Message from './components/Message';
+import Button from './components/Button';
+import Hello from './components/Hello';
+import Employee from './components/Employee';
 function App() {
   return (
     <div className="App">
@@ -11,6 +13,8 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload. ---joseph
         </p>
+        <p>{Hello}</p>
+                <Employee/>
         <Greet name="Jimmy" Role ="The Good Man">
         <Message/>
         </Greet>
