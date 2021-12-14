@@ -2,7 +2,7 @@ function Greet(props){
     return (
      <div>
           {props.children} 
-          <h1>Hello {props.name} a.k.a {props.Role}</h1>
+          <h1>Good Manager Day!</h1>
     </div>
             )
 }

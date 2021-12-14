@@ -1,5 +1,5 @@
 function Message(){
-    return <p>this is a children props</p>
+    return <p>Hello po</p>
      
           
    
