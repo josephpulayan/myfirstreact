@@ -6,7 +6,7 @@ import AddEmployee from "./AddEmployee";
 const Router = () =>{
     return(
             <div>
-                <BrowserRouter>
+                <HashRouter basename='/'>
                     <Routes>
                     <Route exact path="/" element={<Home/>}/>
                     <Route exact path="/employees" element={<Employee/>}/>
@@ -14,7 +14,7 @@ const Router = () =>{
                     <Route exact path="/edit/:employeeId" element={<AddEmployee/>}/>
                     <Route exact path="*" element={<PageNotFound/>}/>        
                     </Routes>
-                </BrowserRouter>
+                </HashRouter>
             </div>
         )
 }
