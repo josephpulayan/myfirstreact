@@ -13,6 +13,6 @@ const putEmployee = (data) =>{
 };
 
 const getEmployee = (employeeId) =>{
-   return httpclient.get('/employees/${employeeId}');
+   return httpclient.get(`/employees/${employeeId}`);
 };
 export default {getEmployees, postEmployee, putEmployee, getEmployee}

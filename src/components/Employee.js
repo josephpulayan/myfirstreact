@@ -47,7 +47,7 @@ return(
                             <td>employee.location</td>
                             <td>employee.employeeId</td>
                             
-    <link className="btn btn-primary" to={'/edit/$(employee.employeeId)'}>Update</link>
+    <link className="btn btn-primary" to={`/edit/$(employee.employeeId)`}>Update</link>
                            
                         </tr>
                     )
